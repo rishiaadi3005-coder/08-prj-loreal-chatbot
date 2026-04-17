@@ -106,7 +106,7 @@ chatForm.addEventListener("submit", async (e) => {
     }
 
     const data = await response.json();
-    const reply = data.choices[0].message.content;
+    const reply = data.reply;
 
     /* --- Add assistant reply to history (LevelUp: Conversation History) --- */
     conversationHistory.push({ role: "assistant", content: reply });
