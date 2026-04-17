@@ -12,7 +12,7 @@
    Replace this URL with your deployed Cloudflare Worker URL
    after deployment. For now it points to the Worker below.
    ======================================= */
-const WORKER_URL = "https://loreal-chatbot-worker.rishiaadi3005-coder.workers.dev";
+const WORKER_URL = "https://loreal-chatbot-worker.rishiaadi3005.workers.dev";
 
 /* ===== DOM Elements ===== */
 const chatForm = document.getElementById("chatForm");
